@@ -1,3 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@500;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --color-dark: #0f1720;
+  --color-dark-soft: #16202b;
+  --color-surface: #f8fafc;
+  --color-text: #0b1220;
+  --color-muted: #64748b;
+  --color-brand: #c1121f;
+  --color-accent: #f59e0b;
+  --color-border: #d9e2ec;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--color-surface);
+  color: var(--color-text);
+  font-family: 'Inter', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Manrope', sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+::selection {
+  background: rgba(193, 18, 31, 0.18);
+  color: var(--color-text);
+}
+
+.section-space {
+  padding-top: 5.5rem;
+  padding-bottom: 5.5rem;
+}
+
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 700ms ease, transform 700ms ease;
+}
+
+.reveal-on-scroll.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.animate-fade-up {
+  animation: fadeUp 900ms ease forwards;
+}
+
+.animation-delay-2 {
+  animation-delay: 160ms;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .reveal-on-scroll,
+  .reveal-on-scroll.revealed,
+  .animate-fade-up {
+    opacity: 1;
+    transform: none;
+    animation: none;
+    transition: none;
+  }
+}

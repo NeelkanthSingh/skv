@@ -1,8 +1,26 @@
-# React + Vite
+# SKV Fire Associates
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Rebranded website for SKV Fire Associates built with React, Vite, and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Stack
+- React
+- Vite
+- Tailwind CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Premium one-page landing experience
+- Reworked brand presentation for SKV
+- Responsive navigation
+- Services, industries, process, FAQ, and CTA sections
+- Smooth scrolling and reveal-on-scroll motion
+
+## Local development
+```bash
+npm install
+npm run dev
+```
+
+## Production build
+```bash
+npm run build
+```
