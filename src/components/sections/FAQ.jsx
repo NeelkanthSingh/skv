@@ -9,8 +9,8 @@ const FAQ = () => {
       <Container>
         <SectionTitle
           eyebrow="FAQ"
-          title="Clear answers for the most likely questions."
-          description="A complete business site should answer practical concerns quickly and reduce friction before someone reaches out."
+          title="Quick answers customers are likely to look for first."
+          description="Location, timings, services, and refilling support are all surfaced more clearly now."
         />
 
         <div className="mt-14 grid gap-4">

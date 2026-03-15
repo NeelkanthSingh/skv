@@ -8,118 +8,131 @@ export const navLinks = [
 ];
 
 export const trustPoints = [
-  { title: "Quality Equipment", description: "Reliable fire safety products selected for real-world performance and long-term readiness." },
-  { title: "Professional Installation", description: "Careful setup and planning for safer, more dependable protection across site conditions." },
-  { title: "Maintenance Support", description: "Service, refilling, and upkeep to keep systems ready when they matter most." },
-  { title: "Compliance Focused", description: "A practical approach that supports safer properties and stronger operational confidence." },
+  { title: "Fire Equipment Sales", description: "Trusted supply of core fire safety equipment for homes, offices, and commercial properties." },
+  { title: "Refilling & Maintenance", description: "Extinguisher refilling and system support to keep safety equipment usable and ready." },
+  { title: "Alarm & Protection Systems", description: "Support for fire alarm systems and essential fire protection setup requirements." },
+  { title: "Local Service in Varanasi", description: "A practical, accessible fire safety partner serving customers with dependable local support." },
 ];
 
 export const services = [
   {
     title: "Fire Extinguishers",
-    description: "Supply, installation, refilling, and maintenance of essential extinguisher systems for daily readiness.",
+    description: "Sales, supply, and support for dependable extinguisher solutions across different property types.",
+  },
+  {
+    title: "Extinguisher Refilling",
+    description: "Refilling services that help ensure extinguishers stay ready for use when needed most.",
   },
   {
     title: "Fire Alarm Systems",
-    description: "Detection and alert solutions designed to improve awareness and response across protected spaces.",
+    description: "Fire alarm solutions for improved detection, alerting, and safer response planning.",
   },
   {
-    title: "Hydrant & Sprinkler Systems",
-    description: "Support for core water-based protection infrastructure across commercial and industrial environments.",
+    title: "Installation Support",
+    description: "System installation assistance for fire safety equipment and protection infrastructure.",
   },
   {
-    title: "Installation & Commissioning",
-    description: "Structured deployment, setup, testing, and handover for systems that need to perform with confidence.",
+    title: "Maintenance Services",
+    description: "Routine servicing and upkeep to improve long-term reliability and readiness.",
   },
   {
-    title: "Maintenance & Refilling",
-    description: "Ongoing servicing that helps equipment remain reliable, functional, and operationally prepared.",
-  },
-  {
-    title: "Safety Consultation",
-    description: "Practical guidance to help choose the right protection systems for your property, usage, and risk profile.",
+    title: "Fire Safety Guidance",
+    description: "Practical recommendations to help choose better safety systems for your site and use case.",
   },
 ];
 
 export const reasons = [
   {
-    title: "Dependable execution",
-    description: "From supply to installation, every stage is approached with clarity, structure, and accountability.",
+    title: "Established local presence",
+    description: "A real Varanasi-based business with clear contact details, accessible support, and a practical service footprint.",
   },
   {
-    title: "Site-specific planning",
-    description: "Recommendations are shaped around the actual building, use case, and operational requirements — not guesswork.",
+    title: "Focused fire safety offering",
+    description: "The business is clearly positioned around extinguishers, refilling, alarm systems, and related protection needs.",
   },
   {
-    title: "Long-term support",
-    description: "SKV is positioned to support maintenance, servicing, and system readiness beyond the first setup.",
+    title: "Stronger brand presentation",
+    description: "The redesigned site makes SKV feel more serious, more premium, and more trustworthy from the first impression.",
   },
   {
-    title: "Professional trust",
-    description: "The brand experience should communicate stability, seriousness, and confidence from the first scroll.",
+    title: "Built to convert better",
+    description: "Clearer structure, stronger contact visibility, and a more credible visual identity help customers take action faster.",
   },
 ];
 
 export const industries = [
-  "Residential Buildings",
-  "Commercial Spaces",
-  "Industrial Facilities",
-  "Institutions & Campuses",
+  "Homes & Apartments",
+  "Shops & Offices",
+  "Commercial Buildings",
+  "Institutions & Facilities",
 ];
 
 export const processSteps = [
   {
     step: "01",
-    title: "Assess",
-    description: "Understand the property, site conditions, and level of protection required for safer coverage.",
+    title: "Understand",
+    description: "Start with the site, the type of property, and the required fire safety need.",
   },
   {
     step: "02",
     title: "Recommend",
-    description: "Choose systems and equipment that match the actual use case, risk level, and space constraints.",
+    description: "Suggest extinguishers, alarm systems, or protection equipment suited to the actual requirement.",
   },
   {
     step: "03",
-    title: "Install",
-    description: "Deploy, test, and prepare the solution so it feels professional, usable, and complete.",
+    title: "Deliver & Install",
+    description: "Provide the equipment and support setup wherever installation is needed.",
   },
   {
     step: "04",
-    title: "Maintain",
-    description: "Support servicing, upkeep, and continuity so protection systems stay ready over time.",
+    title: "Refill & Maintain",
+    description: "Keep systems and extinguishers ready through servicing, upkeep, and refilling support.",
   },
 ];
 
 export const proofStats = [
-  { value: "End-to-end", label: "Support from selection and installation to servicing and upkeep" },
-  { value: "Multi-sector", label: "Suitable for residential, commercial, industrial, and institutional spaces" },
-  { value: "Safety-led", label: "A brand experience designed around trust, readiness, and reliability" },
+  { value: "Varanasi", label: "Local fire safety support with a clear service presence" },
+  { value: "Sales + Service", label: "From equipment supply to refilling and system support" },
+  { value: "10 AM – 8 PM", label: "Monday to Saturday business timings for customer assistance" },
 ];
 
 export const faqs = [
   {
-    question: "What fire safety solutions does SKV provide?",
+    question: "What does SKV Fire Associate provide?",
     answer:
-      "SKV supports key protection needs including extinguishers, alarm systems, hydrant and sprinkler systems, installation, and maintenance support.",
+      "SKV deals in fire safety equipment and fire extinguishers, along with related services such as refilling and fire alarm system support.",
   },
   {
-    question: "Do you provide servicing and refilling support?",
+    question: "Do you offer fire extinguisher refilling?",
     answer:
-      "Yes. Maintenance, refilling, servicing, and ongoing readiness support are important parts of the overall offering.",
+      "Yes. Refilling is one of the core services and is presented as part of the site’s main offering.",
   },
   {
-    question: "Can SKV support commercial and industrial properties?",
+    question: "Do you also handle fire alarm systems?",
     answer:
-      "Yes. The site and service direction are positioned for residential, commercial, industrial, and institutional environments.",
+      "Yes. Fire alarm systems are included as part of the business offering and service direction.",
   },
   {
-    question: "Can you help choose the right system for a property?",
+    question: "Where is SKV Fire Associate located?",
     answer:
-      "Yes. The process begins with understanding the site and then recommending practical systems based on actual needs.",
+      "SKV Fire Associate is located at C-28/141, Shop No. 10 & 11, Pandey Katra, Near Chaura Mata Temple, Maldahiya, Teliyabagh, Varanasi, Uttar Pradesh 221002.",
   },
   {
-    question: "Is this only for new installations?",
+    question: "What are the business timings?",
     answer:
-      "No. The positioning supports both fresh installations and long-term maintenance, upgrades, and system upkeep.",
+      "Typical timings are Monday to Saturday, 10:00 AM to 8:00 PM. Sunday is closed.",
   },
 ];
+
+export const contactDetails = {
+  email: "info@skvfire.com",
+  phoneDisplay: "+91 9450960753",
+  phoneLink: "tel:+919450960753",
+  emailLink: "mailto:info@skvfire.com",
+  address:
+    "C-28/141, Shop No. 10 & 11, Pandey Katra, Near Chaura Mata Temple, Maldahiya, Teliyabagh, Varanasi, Uttar Pradesh 221002, India",
+  timings: [
+    "Monday–Saturday: 10:00 AM – 8:00 PM",
+    "Sunday: Closed",
+  ],
+};

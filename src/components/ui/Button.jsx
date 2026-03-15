@@ -1,10 +1,10 @@
 const variants = {
   primary:
-    "bg-[var(--color-brand)] text-white shadow-[0_18px_50px_rgba(193,18,31,0.28)] hover:bg-[#a50f1a]",
+    "bg-[linear-gradient(135deg,#b91c1c,#ef4444)] text-white shadow-[0_18px_50px_rgba(185,28,28,0.34)] hover:brightness-110",
   secondary:
-    "border border-white/20 bg-white/8 text-white hover:bg-white/14",
+    "border border-[rgba(255,255,255,0.18)] bg-white/8 text-white hover:bg-white/14",
   dark:
-    "bg-[var(--color-dark)] text-white hover:bg-[#0b1220]",
+    "bg-[var(--color-dark)] text-white hover:bg-[#0b0b10]",
 };
 
 const Button = ({ children, href = "#contact", variant = "primary" }) => {

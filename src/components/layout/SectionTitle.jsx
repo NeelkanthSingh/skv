@@ -4,7 +4,7 @@ const SectionTitle = ({ eyebrow, title, description, align = "left" }) => {
   return (
     <div className={`max-w-3xl ${alignment}`}>
       {eyebrow ? (
-        <p className="mb-3 text-sm font-semibold uppercase tracking-[0.24em] text-[var(--color-accent)]">
+        <p className="mb-3 text-sm font-semibold uppercase tracking-[0.24em] text-[#ef4444]">
           {eyebrow}
         </p>
       ) : null}

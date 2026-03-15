@@ -9,8 +9,8 @@ const Services = () => {
       <Container>
         <SectionTitle
           eyebrow="Services"
-          title="Built to cover the essential layers of fire protection."
-          description="A strong fire safety partner should support the full lifecycle — equipment, installation, maintenance, and practical guidance."
+          title="Core fire safety services presented with a stronger, darker identity."
+          description="The goal is simple: make the site feel more serious, more visible, and more aligned with the actual business offering."
         />
 
         <div className="mt-14 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
