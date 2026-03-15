@@ -3,6 +3,7 @@ export const navLinks = [
   { label: "Why SKV", href: "#why-skv" },
   { label: "Industries", href: "#industries" },
   { label: "Process", href: "#process" },
+  { label: "Founder", href: "#founder" },
   { label: "FAQ", href: "#faq" },
   { label: "Contact", href: "#contact" },
 ];

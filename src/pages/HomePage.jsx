@@ -6,6 +6,7 @@ import Services from "../components/sections/Services";
 import WhyChoose from "../components/sections/WhyChoose";
 import Industries from "../components/sections/Industries";
 import Process from "../components/sections/Process";
+import Founder from "../components/sections/Founder";
 import Proof from "../components/sections/Proof";
 import FAQ from "../components/sections/FAQ";
 import CTA from "../components/sections/CTA";
@@ -21,6 +22,7 @@ const HomePage = () => {
         <WhyChoose />
         <div className="reveal-on-scroll"><Industries /></div>
         <div className="reveal-on-scroll"><Process /></div>
+        <div className="reveal-on-scroll"><Founder /></div>
         <Proof />
         <div className="reveal-on-scroll"><FAQ /></div>
         <div className="reveal-on-scroll"><CTA /></div>
